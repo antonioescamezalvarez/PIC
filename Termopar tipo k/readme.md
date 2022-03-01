@@ -12,14 +12,3 @@ El código es tan sencillo como leer los dos bytes, unirlos en una variable uint
 
 <img src="https://github.com/antonioescamezalvarez/Ejemplos-STM32/blob/main/Termopar%20Tipo%20K/protocoloMAX6675.jpg" width="700" />
 
-## Ejemplo Código
-El código es tan sencillo que no se ha creado ningún tipo de librería ni se ha subido ningún codigo como tal, simplemente basta con seleccionar un SPI por defecto y añadir un GPIO_OUTPUT para el CS
-<img src="https://github.com/antonioescamezalvarez/Ejemplos-STM32/blob/main/Termopar%20Tipo%20K/EjemploCodigo.png" width="700" />
-
-Y las variables que hemos creado son las siguientes
-
-<img src="https://github.com/antonioescamezalvarez/Ejemplos-STM32/blob/main/Termopar%20Tipo%20K/Variables.png" width="200" />
-
-## Montaje
-Por último dejo una foto del montaje para visualizar los elementos
-<img src="https://github.com/antonioescamezalvarez/Ejemplos-STM32/blob/main/Termopar%20Tipo%20K/Montaje.jpg" width="700" />
