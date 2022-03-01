@@ -18,4 +18,4 @@ El código es tan sencillo como leer los dos bytes, unirlos en una variable uint
 
 ## Foto Montaje
 
-<img src="https://github.com/antonioescamezalvarez/PIC/blob/main/Termopar%20tipo%20k/Montaje.jpeg" width="700" />
+<img src="https://github.com/antonioescamezalvarez/PIC/blob/main/Termopar%20tipo%20k/Montaje.jpeg" height="700" />
