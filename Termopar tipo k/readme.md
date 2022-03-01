@@ -15,3 +15,7 @@ El código es tan sencillo como leer los dos bytes, unirlos en una variable uint
 ## Pinout y Configuración
 
 <img src="https://github.com/antonioescamezalvarez/PIC/blob/main/Termopar%20tipo%20k/Configuracion.png" width="700" />
+
+## Foto Montaje
+
+<img src="https://github.com/antonioescamezalvarez/PIC/blob/main/Termopar%20tipo%20k/Montaje.jpeg" width="700" />
