@@ -12,3 +12,6 @@ El código es tan sencillo como leer los dos bytes, unirlos en una variable uint
 
 <img src="https://github.com/antonioescamezalvarez/Ejemplos-STM32/blob/main/Termopar%20Tipo%20K/protocoloMAX6675.jpg" width="700" />
 
+## Pinout y Configuración
+
+<img src="https://github.com/antonioescamezalvarez/PIC/blob/main/Termopar%20tipo%20k/Configuracion.png" width="700" />
