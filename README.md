@@ -2,6 +2,8 @@
 Aquí podras encontrar ejemplos básicos para poder utilizar diferentes tipos de sensores y actuadores que he ido utilizando a lo largo del tiempo.
 La idea de estos proyectos es la de testear el funcionamiento de cada dispositivo y desarrollar una librería que permita utilizarlo de manera sencilla.
 
+En la mayoría de los ejemplos empleo el PIC16F18326 ya que es muy barato y versátil.
+
 
 
 ## [Termopar Tipo k](https://github.com/antonioescamezalvarez/PIC/tree/main/Termopar%20tipo%20k)
