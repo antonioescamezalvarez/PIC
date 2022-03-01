@@ -1,0 +1,291 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18326 ]
+[d frameptr 6 ]
+"51 C:\Users\UJA\Desktop\Termopar\Termopar.X\main.c
+[e E6651 . `uc
+SPI1_DEFAULT 0
+]
+"77 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/spi1.c
+[e E355 . `uc
+SPI1_DEFAULT 0
+]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"46 C:\Users\UJA\Desktop\Termopar\Termopar.X\main.c
+[v _medirTemperatura medirTemperatura `(f  1 e 4 0 ]
+"77
+[v _main main `(v  1 e 1 0 ]
+"50 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"74
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"80
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"62 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"77
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"92
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"97
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+[s S173 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"535 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18326.h
+[u S182 . 1 `S173 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES182  1 e 1 @17 ]
+"1500
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1545
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S126 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"1560
+[u S133 . 1 `S126 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES133  1 e 1 @142 ]
+"1876
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2192
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S29 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"2207
+[u S36 . 1 `S29 1 . 1 0 ]
+[v _LATAbits LATAbits `VES36  1 e 1 @268 ]
+"2237
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2780
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2825
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3741
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3791
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"3841
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4095
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4603
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"4725
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S143 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4758
+[s S149 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S154 . 1 `S143 1 . 1 0 `S149 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES154  1 e 1 @533 ]
+"4995
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"5947
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5992
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6446
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6491
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"6857
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"6907
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"11576
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"11621
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"11683
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"11723
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"11785
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"11819
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"11928
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12068
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"12165
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"12211
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"12269
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"13167
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3616 ]
+"13219
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3617 ]
+"13975
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3744 ]
+"14079
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @3746 ]
+[s S114 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/spi1.c
+[v _spi1_configuration spi1_configuration `DC[1]S114  1 s 4 spi1_configuration ]
+"77 C:\Users\UJA\Desktop\Termopar\Termopar.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"103
+} 0
+"46
+[v _medirTemperatura medirTemperatura `(f  1 e 4 0 ]
+{
+"57
+[v medirTemperatura@i i `uc  1 a 1 38 ]
+"49
+[v medirTemperatura@temperatura temperatura `f  1 a 4 34 ]
+"47
+[v medirTemperatura@temperatura_buffer temperatura_buffer `[2]uc  1 a 2 32 ]
+"48
+[v medirTemperatura@temperatura_raw temperatura_raw `us  1 a 2 30 ]
+"72
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S560 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S565 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S568 . 4 `l 1 i 4 0 `d 1 f 4 0 `S560 1 fAsBytes 4 0 `S565 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S568  1 a 4 15 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 9 ]
+[s S637 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S640 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S637 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S640  1 a 2 19 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 14 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 13 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 8 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"77 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/spi1.c
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E355  1 a 1 wreg ]
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E355  1 a 1 wreg ]
+"79
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E355  1 a 1 3 ]
+"90
+} 0
+"97
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+{
+[v SPI1_ExchangeByte@data data `uc  1 a 1 wreg ]
+[v SPI1_ExchangeByte@data data `uc  1 a 1 wreg ]
+"99
+[v SPI1_ExchangeByte@data data `uc  1 a 1 0 ]
+"103
+} 0
+"92
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+{
+"95
+} 0
+"50 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"74
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"62 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"80 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"55 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"60 C:\Users\UJA\Desktop\Termopar\Termopar.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
